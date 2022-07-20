@@ -1,0 +1,328 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #E5E5E5;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+:root {
+    --logo-blue-color: #2196F3;
+    --logo-black-color: #000000;
+    --logo-white-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --team-color:#212121;
+    --tete-color:#757575;
+}
+/*-------------------basis------------------- */
+
+.basis-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color:var(--logo-blue-color);
+}
+.basis-logo:hover,
+.basis-logo:focus {
+    color:var(--accent-color);
+}
+.basis-logo-another {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-black-color);
+}
+.basis-logo-another:hover,
+.basis-logo-another:focus {
+    color: var(--accent-color);
+}
+
+.basis-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.basis-link:hover,
+.basis-link:focus {
+    color: var(--accent-color);
+}
+
+.basis-link-studio {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.basis-link-studio:hover,
+.basis-link-studio:focus {
+    color: var(--accent-color);
+}
+
+.basis-link-portfolio {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.basis-link-portfolio:hover,
+.basis-link-portfolio:focus {
+    color: var(--accent-color);
+}
+.basis-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;
+}
+
+.basis-mail:hover,
+.basis-mail:focus {
+    color: var(--accent-color);
+}
+
+.basis-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;
+}
+
+.basis-tel:hover,
+.basis-tel:focus {
+    color: var(--accent-color);
+}
+
+/*---------hero---------*/
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: #188CE8;
+}
+/*---------features---------*/
+.features-subject {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.features-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-subject {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--team-color);
+    background: #FFFFFF;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--tete-color);
+    background: #FFFFFF;
+}
+
+/*---------basement---------*/
+.basement{
+    background: #2F303A;
+}
+.basement-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-blue-color);
+}
+
+.basement-logo:hover,
+.basement-logo:focus {
+    color: var(--accent-color);
+}
+
+.basement-logo-another {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-white-color); 
+}
+.basement-logo-another:hover,
+.basement-logo-another:focus {
+    color: var(--accent-color);
+}
+
+.basement-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.basement-mail {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.basement-mail:hover,
+.basement-mail:focus {
+    color: var(--accent-color);
+}
+
+.basement-tel {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.basement-tel:hover,
+.basement-tel:focus {
+    color: var(--accent-color);
+}
+
+/*-----------------portfolio----------------*/
+.portfolio {
+    background: #E5E5E5
+}
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.portfolio-btn-all {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.portfolio-example-subject {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: var(--team-color);
+    background: #FFFFFF;
+}
+
+.portfolio-example-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--tete-color);
+    background: #FFFFFF;
+}
+
+.basement-contacts {
+    font-style: normal;
+}
